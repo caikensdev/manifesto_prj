@@ -5,7 +5,9 @@
   font-family: 'DM Mono', monospace;
   user-select: none;
 }
-
+main{
+  padding-bottom: 2em;
+}
 h1{
   z-index: 4;
   background-color: white;
@@ -14,6 +16,7 @@ h1{
 p{
   opacity: 1;
   padding-top: 1em;
+  padding-bottom: 1em;
 }
 canvas{
 
@@ -36,7 +39,7 @@ canvas{
   height: 600px;
   display: inline-block;
   z-index: 1;
-  padding-left: 1em;
+  padding-left: 3em;
 }
 #text-holder2{
   opacity: .9;

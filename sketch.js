@@ -1,7 +1,7 @@
 function setup() {
   // Create the canvas
 
-  createCanvas(windowWidth, 3000);
+  createCanvas(windowWidth, windowHeight);
 
 
   // Set colors

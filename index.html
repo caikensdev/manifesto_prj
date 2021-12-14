@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>CommonForms</title>
+    <title>Common Forms</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
     <script src="sketch.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<script>
 
+
+	<script>
+  document.getElementById("hover1").addEventListener("mouseover", mouseOver);
+  document.getElementById("hover1").addEventListener("mouseout", mouseOut);
+
+  function mouseOver() {
+    document.getElementById("hover1").style.color = "red";
+  }
+
+  function mouseOut() {
+    document.getElementById("hover1").style.color = "black";
+  }
   </script>
 
   </head>
@@ -19,6 +31,7 @@
 }
   </style>
   <body>
+    <div id="root">
 	<main>
 <div class="header"><h1><i class="material-icons">favorite</i>Against Common Forms <i class="material-icons">favorite</i></h1></div>
 <div id="sketch-holder"></div>
@@ -49,7 +62,7 @@ The glitch (g/litch) (g1itch) is from the German, ‘gleiten’, which means to 
 If you resist the glitch it will find you, if you submit to the glitch you will be lost in the noise. If you continue to be one step ahead of the noise, whether straight, queer, femme, default, or ill you can’t be swallowed up in the noise. Define this world with your own words. They are all you have.
 </p>
 <h1><i class="material-icons">undo</i>experience over representation and materialist doctrine<i class="material-icons">undo</i></h1>
-<p>Experience is valued over representation of queerness, blackness, whiteness, or another default. Not experiencing is worse than not representing. Consciousness is experience. Experience is consciousness. This is the only work solution to the hard problem of consciousness.
+<p>Experience is valued over representation of queerness, blackness, whiteness, or another default. Not experiencing is worse than not representing. Consciousness is experience. Experience is consciousness. This is the only working solution to the hard problem of consciousness.
 </p>
 <h1><i class="material-icons">healing</i>The Theologian <i class="material-icons">healing</i></h1>
 <p>The theologian celebrated the essay on the Garden. He or she said, thank you, that’s why we need God! I want for a moment to push back on the professional theologian.</p>
@@ -58,7 +71,7 @@ If you resist the glitch it will find you, if you submit to the glitch you will 
 <h1><i class="material-icons">filter_vintage</i>The Common Forms<i class="material-icons">filter_vintage</i></h1>
 <p>As the last of these articles, what are the common forms? The common forms are the transcendent ideals of self, the damning view of the void, the perception of nothingness that is not nothingness, and the beauty of the world as something we can ascend to. The Forms are platonic, the common forms are this contradictory and discursive conversation of the below.</p>
 </div>
-
+</div>
 
 
 </main>
